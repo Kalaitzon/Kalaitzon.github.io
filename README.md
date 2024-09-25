@@ -3,6 +3,7 @@
 ✏️The file `Structure.html` contains the content of the website.  
 ✏️The file `Style.css` includes the styling of the website's content.  
 ✏️The file `Interaction.js` handles the interaction with the website's content.
+✏️The file `Examples.py` has all the examples of python code I used in my website.
 
 ➡️Scripts in C# for the 2D game on the Unity platform will be added later.  
 ➡️The document explaining the thesis's subject matter will also be included.
@@ -14,6 +15,7 @@
 ✏️Το αρχείο `Structure.html` περιλαμβάνει το περιεχόμενο της ιστοσελίδας.
 ✏️Το αρχείο `Style.css` περιλαμβάνει το τρόπο εμφάνισης του περιεχομένου της ιστοσελίδας.
 ✏️Το αρχείο `Interaction.js` εξυπηρετεί την αλληλεπίδραση με το περιεχόμενο της ιστοσελίδας.
+✏️Το αρχείο `Examples.py` περιέχει όλα τα παραδείγματα κώδικα Python που χρησιμοποίησα στην ιστοσελίδα μου.
 
 ➡️Σε συνέχεια θα προστεθούν και τα scripts στην προγραμματιστική γλώσσα C# για το 2D παιχνίδι στην πλατφόρμα Unity.
 ➡️Θα προστεθεί το έγγραφο που επεξηγεί τη θεματολογία της πτυχιακής. 
