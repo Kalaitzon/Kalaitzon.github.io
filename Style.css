@@ -1,0 +1,312 @@
+#icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    position:absolute;
+    right: 70px;
+    top: 70px;
+}
+
+:root {
+    --primary-color: #99BC85;
+    --secondary-color: #42602e;
+    --tertiary-color: #000000;
+    --scrollbar-thumb-color: #42602e;
+    --scrollbar-track-color: #99BC85;
+}
+
+.dark-theme {
+    --primary-color:rgb(5, 14, 43);
+    --secondary-color:#2bc7d5;
+    --tertiary-color:white;
+}
+
+body.dark-theme {
+    --scrollbar-thumb-color: #2bc7d5;
+    --scrollbar-track-color: rgb(5, 14, 43);
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------- */
+
+header {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+body {
+    background-color: var(--primary-color); /* Σκούρο μπλε χρώμα */
+    color: var(--tertiary-color); /* Αλλάξτε το χρώμα στην επιθυμητή */
+    font-family: Arial, sans-serif; /* Αλλάξτε τη γραμματοσειρά στην επιθυμητή */
+    white-space: nowrap;
+    font-size: 30px;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------- */
+
+.navigation1 {
+    border: 5px solid var(--secondary-color); /* Border around the buttons */
+    padding: 10px; /* Increase padding to ensure space between buttons and border */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    border-radius: 10px; /* Rounded corners */
+    width: 460px; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the element horizontally */
+    text-align: center; /* Center-align text and buttons inside the container */
+    margin-top: -20px;
+}
+
+.navigation2 {
+    flex-direction: column;
+    border-radius: 10px;
+    border: 5px solid var(--secondary-color);
+    margin-left: 40px;
+    margin-top: 60px;
+    width: 295px;
+    height: auto;
+    text-align: center;
+    padding: 7px;
+    gap: 5px;
+}
+
+.navigation1 button{
+    font-size: 15px;
+    border: 3px solid transparent; /* Περίγραμμα γύρω από κάθε κουμπί */
+    padding: 10px; /* Προσθήκη εσωτερικού περιθωρίου για την απόσταση από το περίγραμμα */
+    margin: 5px; /* Απόσταση μεταξύ των κουμπιών */
+    border-radius: 5px; /* Στρογγυλεμένες γωνίες για κάθε κουμπί */
+    color: var(--tertiary-color); /* Λευκό χρώμα κειμένου */
+    background-color: var(--primary-color); /* Σκούρο μπλε χρώμα */
+    transition: border-color 0.5s ease; /* Απαλή μετάβαση για το χρώμα του περιγράμματος */ 
+}
+
+.navigation2 button{
+    font-size: 14px;
+    width: 240px;
+    border: 3px solid transparent;
+    padding: 8px; /* Reduced padding to make buttons narrower */
+    margin: 5px auto; /* Center buttons horizontally and reduce the margin */
+    border-radius: 5px;
+    color: var(--tertiary-color);
+    background-color: var(--primary-color);
+    transition: border-color 0.5s ease;
+}
+
+.navigation1 button:hover, .navigation2 button:hover {
+    cursor: pointer;
+    border: 3px solid var(--secondary-color); /* Περίγραμμα γύρω από κάθε κουμπί */
+    transform: scale(1.2); /* Μεγέθυνση του κουμπιού κατά 10% */
+    z-index: 1; /* Μετακίνηση του κουμπιού στην εμπρόσθια στοίβα για να καλύψει τα γειτονικά κουμπιά */
+    box-shadow: 0px 2px 7px var(--secondary-color); /* Σκιά γύρω από το κουμπί */
+}
+
+button.selected {
+    border: 3px solid var(--secondary-color);
+    background-color: var(--primary-color); /* Darker shade or distinct color */
+    transform: none; /* Ensure no scale transformation */
+    box-shadow: 0px 2px 7px var(--secondary-color); /* Σκιά γύρω από το κουμπί */
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------- */
+
+.hidden {   
+    display: none;
+    /* visibility: hidden; */
+}
+.visible {
+    display: flex;
+    /* visibility: visible; */
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------- */
+
+.text-content {
+    flex-direction: column; /**/
+}
+
+#intro, #links, #introduction, #list, #data-types-operators, #arithmetic-logical-operations, #variables, #comments, #built-in-functions, #basic-commands, #libraries, #control-flow, #functions, #game, #examples {
+    text-align: justify;
+    padding: 15px;  /*Πόση απόσταση να υπάρχει ανάμεσα στο κείμενο και στο frame που το περικλύει*/
+    border: 5px solid var(--secondary-color);  /*Πάχος, είδος και χρώμα frame*/
+    border-radius: 10px;    /*Πόσο στρογγυλεμένη θέλουμε την κάθε γωνία του frame*/
+    margin-top: -650px;
+    margin-bottom: 150px;
+}
+
+#intro{
+    width: 1000px;  /*Μήκος του κουτιού στο οποίο υπάρχει το κείμενο*/
+    height: auto;  /*Ύψος του κουτιού στο οποίο υπάρχει το κείμενο*/
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+#game{
+    margin: 60px auto 150px auto; /* margin-top: 60px, margin-bottom: 150px, κέντρο στον άξονα Χ */
+    text-align: center;
+    width: 1000px;
+    height: auto;
+}
+
+iframe {
+    width: 1000px; /* Ή όποιο πλάτος θέλεις */
+    height: 650px; /* Ή όποιο ύψος θέλεις */
+}
+
+#links {
+    width: 1170px;  /*Μήκος του κουτιού στο οποίο υπάρχει το κείμενο*/
+    height: auto;  /*Ύψος του κουτιού στο οποίο υπάρχει το κείμενο*/
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 220px;
+}
+
+#introduction, #data-types-operators, #list, #arithmetic-logical-operations, #variables, #basic-commands, #comments, #built-in-functions, #libraries, #control-flow, #functions, #examples {
+    width: 1040px;
+    height: auto;
+    margin-left: 400px;
+    overflow-x: hidden;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------- */
+
+.content {
+    overflow: hidden; /* Εξασφαλίζει ότι η εικόνα δεν επηρεάζει τη διάταξη του κειμένου */
+}
+
+.content img {
+    float: right; /* Τοποθετεί την εικόνα αριστερά του κειμένου */
+    margin-top: 25px;
+    margin-left: 5px;
+}
+
+code {
+    color: white; /* Χρώμα κειμένου */
+    font-size: 20px;
+}
+
+pre {
+    padding: 10px;
+    background-color: #000; /* Μαύρο φόντο */
+    border-radius: 10px; /* Στρογγυλοποίηση του πλαισίου */
+    border: 3px solid var(--secondary-color);
+    width: auto; 
+    height: auto;
+    text-align: left;
+}
+
+.custom-links a {
+    color: var(--tertiary-color); /* Set text color to white */
+    font-size: 18px; /* Optional: Reduce font size if needed */
+}
+
+.custom-links a:hover {
+    color: var(--secondary-color); /* Χρώμα όταν ο χρήστης περνάει το ποντίκι πάνω από τον σύνδεσμο */
+}
+
+.custom-links a:active {
+    color: var(--primary-color); /* Χρώμα όταν ο χρήστης κάνει κλικ στον σύνδεσμο */
+}
+
+h1{
+    font-size: 22px;
+}
+
+p {
+    white-space: normal; /* Allows text to wrap onto multiple lines */
+    font-size: 18px; /* Adjust font size as needed */
+    line-height: 1.6; /* Improve readability with line spacing */
+}
+
+ul, ol {
+    font-size: 20px; /* Μειώνει το μέγεθος της γραμματοσειράς για τα <b> στοιχεία μέσα σε <li> */
+}
+
+.table {
+    border-color: var(--secondary-color);   /*Πινακες*/
+    text-align: center;
+    font-size: 25px;
+    border-radius: 10px;
+    display: table;
+    margin: 0 auto;
+}
+
+.table2 {
+    border-color: var(--secondary-color);   /*Πινακες*/
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.table2 td:nth-child(3) {
+    text-align: justify; /* Στοίχιση δεξιά για την τρίτη στήλη */
+    font-size: 22px;
+    padding: 10px;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------- */
+
+footer {
+    font-size: 12px;
+    color: var(--tertiary-color); 
+    padding: 20px 0; /* Padding at the top and bottom */
+    text-align: center; /* Center text */
+    font-family: Arial, sans-serif; /* Font style */
+    border-top: 5px solid var(--secondary-color); /* Adds a top border */
+}
+
+.footer-content a {
+    color: var(--tertiary-color); /* Set text color to white */
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------- */
+
+::-webkit-scrollbar {
+    width: 10px !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--scrollbar-thumb-color); /* Χρησιμοποιούμε την CSS μεταβλητή */
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--scrollbar-track-color); /* Χρησιμοποιούμε την CSS μεταβλητή */
+    border-radius: 10px !important;
+}
+
+body {
+    scrollbar-width: thin !important;
+    scrollbar-color: var(--scrollbar-thumb-color) var(--scrollbar-track-color);
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------- */
+
+@media screen and (max-width: 431px) {
+    /* Στυλ για το λογότυπο */
+    #logo {
+        width: 100px; /* Μειώστε το μέγεθος για μικρότερες οθόνες */
+        height: auto;
+    }
+    
+    /* Στυλ για τον τίτλο και την κινούμενη πρόταση */
+    .title-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+    
+    #moving-sentence {
+        font-size: 16px; /* Μειώστε το μέγεθος για μικρότερες οθόνες */
+    }
+    
+    /* Προσαρμογές για το εικονίδιο */
+    #icon {
+        top: 30px;
+        right: 30px;
+    }
+
+    .footer-content {
+        width: 95%; /* Διασφαλίσε ότι καταλαμβάνει το 100% της οθόνης */
+    }
+        
+}
