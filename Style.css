@@ -131,11 +131,11 @@ button.selected {
     margin-bottom: 150px;
 }
 
-/* Στυλ μόνο για Firefox */
-@-moz-document url-prefix() {
-    #intro, #links, #introduction, #list, #data-types-operators, #arithmetic-logical-operations, #variables, #comments, #built-in-functions, #basic-commands, #libraries, #control-flow, #functions, #game, #examples {
-        margin-top: -200px;
-    }
+/* CSS Hack για Firefox */
+@supports (-moz-appearance: none) {
+  #intro, #links, #introduction, #list, #data-types-operators, #arithmetic-logical-operations, #variables, #comments, #built-in-functions, #basic-commands, #libraries, #control-flow, #functions, #game, #examples {
+      margin-top: -500px; /* Προσαρμόζεις την τιμή για τον Firefox */
+  }
 }
 
 #intro{
