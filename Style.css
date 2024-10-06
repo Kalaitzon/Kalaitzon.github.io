@@ -282,7 +282,7 @@ footer {
 }
 
 /* Scrollbar για Firefox */
-#intro, #links, #introduction, #data-types-operators, #arithmetic-logical-operations, #variables, #comments, #built-in-functions, #basic-commands, #libraries, #control-flow, #functions, #game, #examples {
+body {
     scrollbar-width: thin !important;
     scrollbar-color: var(--scrollbar-thumb-color) var(--scrollbar-track-color) !important;
 }
