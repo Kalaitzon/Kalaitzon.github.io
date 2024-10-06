@@ -134,7 +134,7 @@ button.selected {
 /* Στυλ μόνο για Firefox */
 @-moz-document url-prefix() {
     #intro, #links, #introduction, #list, #data-types-operators, #arithmetic-logical-operations, #variables, #comments, #built-in-functions, #basic-commands, #libraries, #control-flow, #functions, #game, #examples {
-        margin-top: -660px;
+        margin-top: -200px;
     }
 }
 
