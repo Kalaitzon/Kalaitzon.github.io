@@ -131,6 +131,13 @@ button.selected {
     margin-bottom: 150px;
 }
 
+/* Στυλ μόνο για Firefox */
+@-moz-document url-prefix() {
+    #intro, #links, #introduction, #list, #data-types-operators, #arithmetic-logical-operations, #variables, #comments, #built-in-functions, #basic-commands, #libraries, #control-flow, #functions, #game, #examples {
+        margin-top: -660px;
+    }
+}
+
 #intro{
     width: 1000px;  /*Μήκος του κουτιού στο οποίο υπάρχει το κείμενο*/
     height: auto;  /*Ύψος του κουτιού στο οποίο υπάρχει το κείμενο*/
@@ -259,23 +266,25 @@ footer {
 
 /* ----------------------------------------------------------------------------------------------------------------------------------- */
 
+/* Scrollbar για Chrome και άλλους Webkit browsers */
 ::-webkit-scrollbar {
     width: 10px !important;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: var(--scrollbar-thumb-color); /* Χρησιμοποιούμε την CSS μεταβλητή */
-    border-radius: 10px;
-}
-
-::-webkit-scrollbar-track {
-    background-color: var(--scrollbar-track-color); /* Χρησιμοποιούμε την CSS μεταβλητή */
+    background-color: var(--scrollbar-thumb-color) !important; /* Χρησιμοποιούμε την CSS μεταβλητή */
     border-radius: 10px !important;
 }
 
+::-webkit-scrollbar-track {
+    background-color: var(--scrollbar-track-color) !important; /* Χρησιμοποιούμε την CSS μεταβλητή */
+    border-radius: 10px !important;
+}
+
+/* Scrollbar για Firefox */
 body {
     scrollbar-width: thin !important;
-    scrollbar-color: var(--scrollbar-thumb-color) var(--scrollbar-track-color);
+    scrollbar-color: var(--scrollbar-thumb-color) var(--scrollbar-track-color) !important;
 }
 
 /* ---------------------------------------------------------------------------------------------------------------------------------- */
