@@ -14,7 +14,6 @@
 
 ✏️The file `Quiz-Questions+Answers.pdf` contains all the questions with the correct answers underlined, which I used in my game.
 
-➡️The document explaining the thesis's subject matter will also be included.
 
 ©️All rights reserved
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -33,7 +32,6 @@
 ✏️Το αρχείο `Pythonistas-Units.pdf` περιέχει όλα τα κείμενα που έβαλα στις ενότητες, προκειμένου να καλυφθεί η ύλη στη Python, στη δευτεροβάθμια εκπαίδευση.
 
 ✏️Το αρχείο `Quiz-Questions+Answers.pdf` περιέχει όλες τις ερωτήσεις με υπογραμμισμένες τις σωστές απαντήσεις που χρησιμοποίησα στο παιχνίδι μου.
-
-➡️Θα προστεθεί το έγγραφο που επεξηγεί τη θεματολογία της πτυχιακής. 
+ 
 
 ©️Με την επιφύλαξη παντός δικαιώματος
