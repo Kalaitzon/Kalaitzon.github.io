@@ -7,6 +7,7 @@
 ✏️The file `Examples.py` has all the examples of python code I used in my website.  
 ✏️The file `Pythonistas-Units.pdf` contains all the texts I included in the units to cover the Python curriculum for secondary education.  
 ✏️The file `Quiz-Questions+Answers.pdf` contains all the questions with the correct answers underlined, which I used in my game.  
+✏️The file `Thesis_Gr.pdf` is my thesis, which explains the application in detail in Greek.
 
 ©️All rights reserved
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -19,5 +20,6 @@
 ✏️Το αρχείο `Examples.py` περιέχει όλα τα παραδείγματα κώδικα Python που χρησιμοποίησα στην ιστοσελίδα μου.  
 ✏️Το αρχείο `Pythonistas-Units.pdf` περιέχει όλα τα κείμενα που έβαλα στις ενότητες, προκειμένου να καλυφθεί η ύλη στη Python, στη δευτεροβάθμια εκπαίδευση.  
 ✏️Το αρχείο `Quiz-Questions+Answers.pdf` περιέχει όλες τις ερωτήσεις με υπογραμμισμένες τις σωστές απαντήσεις που χρησιμοποίησα στο παιχνίδι μου.  
+✏️Το αρχείο `Thesis_Gr.pdf` είναι η πτυχιακή μου εργασία, η οποία επεξηγεί αναλυτικά την εφαρμογή στα ελληνικά.
  
 ©️Με την επιφύλαξη παντός δικαιώματος
